@@ -84,7 +84,7 @@ public class Window {
 		btnCopy.setIcon(new ImageIcon(Window.class.getResource("/src/ua/serg/passgen/page_copy.png")));
 		btnCopy.setHorizontalTextPosition(SwingConstants.CENTER);
 		btnCopy.setPreferredSize(new Dimension(89, 20));
-		btnCopy.setBounds(319, 24, 35, 35);
+		btnCopy.setBounds(314, 20, 44, 44);
 		btnCopy.addActionListener(actCopyBtn);
 		panel.add(btnCopy);
 		
