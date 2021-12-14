@@ -1,5 +1,8 @@
 # Default ignored files
 /shelf/
 .idea/
+out/production
+META-INF/
+
 *.class
-out/
+*.MF
