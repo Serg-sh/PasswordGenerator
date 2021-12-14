@@ -1,4 +1,4 @@
-package ua.serg.passgen;
+package src.ua.serg.passgen;
 
 public final class SymbolForPass {
 	static final char[] NUM = {48,49,50,51,52,53,54,55,56,57};

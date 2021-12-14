@@ -1,4 +1,4 @@
-package ua.serg.passgen;
+package src.ua.serg.passgen;
 
 
 import java.awt.Toolkit;

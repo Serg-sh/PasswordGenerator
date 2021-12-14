@@ -1,4 +1,4 @@
-package ua.serg.passgen;
+package src.ua.serg.passgen;
 
 import java.awt.EventQueue;
 
@@ -81,7 +81,7 @@ public class Window {
 		btnGeneration.addActionListener(actButtGen);
 		
 		JButton btnCopy = new JButton("");
-		btnCopy.setIcon(new ImageIcon(Window.class.getResource("/ua/serg/passgen/page_copy.png")));
+		btnCopy.setIcon(new ImageIcon(Window.class.getResource("/src/ua/serg/passgen/page_copy.png")));
 		btnCopy.setHorizontalTextPosition(SwingConstants.CENTER);
 		btnCopy.setPreferredSize(new Dimension(89, 20));
 		btnCopy.setBounds(319, 24, 35, 35);

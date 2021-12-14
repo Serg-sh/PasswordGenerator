@@ -1,4 +1,4 @@
-package ua.serg.passgen;
+package src.ua.serg.passgen;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -36,13 +36,13 @@ public class ActionButtGen implements ActionListener {
 		return arr[i];
 		}
 	
-//	Определяет длину массива символов пароля
+//	пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	private char[] chArrPassLength() {
 		char[] arrPass = new char[(int) parrent.spinner.getValue()];
 		return arrPass;
 		}
 	
-//	условие по умолчанию шаблон
+//	пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	private char[] condition() {
 		
 		List<Character> tmpList = new ArrayList<Character>(); 
@@ -83,7 +83,7 @@ public class ActionButtGen implements ActionListener {
 			}
 		return exitArr;
 		}
-//	Заполнение массива fillingArr
+//	пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ fillingArr
 
 	private void fillingArr(char[] chPass, char[] arrStat) {
 		
